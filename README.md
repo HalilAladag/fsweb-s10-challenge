@@ -32,13 +32,13 @@ Yeni not ekleme ve silme işlemi esnasında bir API'ye request atılmalı ve gel
 
 LocalStorage'ı minik bir veritabanı olarak kullanmak için uygulama eğer varsa daha önce localStorage'a kaydedilmiş verilerle başlatılmalı ve `redux store`'unda yapılan her değişiklik localStorage'a da yansıtılmalıdır.
 
-- [ ] Projeyi inceleyin ve componentlar arasındaki ilişkiyi bulun.
+- [+] Projeyi inceleyin ve componentlar arasındaki ilişkiyi bulun.
 
-- [ ] `actions.js` dosyasını inceleyin, kod eklemeniz gereken yerleri bulun.
+- [+] `actions.js` dosyasını inceleyin, kod eklemeniz gereken yerleri bulun.
 
-- [ ] `reducers.js` dosyası içerisinde store oluştururken kullanacağınız `reducer` fonksiyonunuzu `actions.js` dosyasına göre oluşturun. State başlangıç değerleri için şimdilik `baslangicDegerleri` ni kullanabilirsiniz.
+- [+] `reducers.js` dosyası içerisinde store oluştururken kullanacağınız `reducer` fonksiyonunuzu `actions.js` dosyasına göre oluşturun. State başlangıç değerleri için şimdilik `baslangicDegerleri` ni kullanabilirsiniz.
 
-- [ ] `redux`, `react-redux` ve `redux-thunk` paketlerini projenize ekleyin ve `index.js` dosyası içerisinde redux store unuzu oluşturun. redux-thunk paketini middleware olarak eklemeyi unutmayın.
+- [+] `redux`, `react-redux` ve `redux-thunk` paketlerini projenize ekleyin ve `index.js` dosyası içerisinde redux store unuzu oluşturun. redux-thunk paketini middleware olarak eklemeyi unutmayın.
 
 - [ ] `PostList.js` dosyasında listelemek üzere store içerisindeki notları `useSelector` kullanarak alın ve `notlar` arrayine eşitleyin.
 
